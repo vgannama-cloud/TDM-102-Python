@@ -1,0 +1,28 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# R (in case any .Rmd/.R files or R-kernel notebooks are added later)
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+
+# Gradescope submission metadata (contains email, score, timestamps)
+metadata.yml
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large or restricted data (uncomment/edit if a specific project needs it)
+# data/raw/
